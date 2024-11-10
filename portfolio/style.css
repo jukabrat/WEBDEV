@@ -1,0 +1,232 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #DFD0B8;
+}
+#header{
+    display: flex;
+}
+#glavni-head{
+    background-color: #153448;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+
+
+#contact{
+    font-family: sans-serif;
+    display: flex;
+    justify-content:space-between;
+}
+#contact-info{
+    text-align: right;
+    margin-top: 50px;
+}
+#contact-info p{
+    display: inline;
+    margin: 0px 25px 0px 25px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+#contact-dugme{
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#contact-dugme-dugme{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    margin-right: 15px;
+    transition: .3s;
+}
+#contact-dugme-dugme:hover{
+    background-color: white;
+    color: #153448;
+}
+#contact-dugme-instagram{
+    margin-right: 15px;
+}
+#contact-dugme-instagram svg{
+}
+#contact-dugme-instagram svg:hover{
+    animation-name: okreni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes okreni{
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+}
+
+#umetnost, #logika{
+    height: 550px;
+    filter: brightness(60%);
+    filter: blur(5px);
+    width: 100%;
+    transition: .3s;
+}
+#umetnost:hover{
+    filter: brightness(100%);
+    filter: blur(0px);
+    cursor: pointer;
+}
+#logika:hover{
+    filter: brightness(100%);
+    filter: blur(0px);
+    cursor: pointer;
+}
+#logika-div, #art-div{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+#logika-div h1{
+    position: absolute;
+    bottom: 250px;
+    left: 300px;
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+#art-div h1{
+    position: absolute;
+    bottom: 250px;
+    left: 500px;
+    color: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+#profilna{
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 50px;
+    filter: brightness(70%);
+    border-radius: 10px;
+}
+#predstava{
+    display: flex;
+    justify-content: center;
+    color: #DFD0B8;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    animation-name: proba;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes proba {
+    from {color: #153448;}
+    to {color: #DFD0B8;}
+}
+
+
+
+#opis{
+    font-family: Helvetica;
+    color: #DFD0B8;
+    padding: 25px 25px 25px 25px;
+    background-color: #153448;
+    margin-top: 300px;
+}
+#opis h1{
+    text-align: left;
+}
+#opis P{
+    font-size: 20px;
+}
+
+
+
+#contact-form{
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #153448;
+    height: 600px;
+}
+#contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+#contact-form form{
+    position: relative;
+    width: 30%;
+    padding: 30px 20px 30px 20px;
+    border-radius: 20px;
+}
+#postar-div{ 
+    display: flex;
+    align-items: center;
+}
+#contact-form input{
+    margin: 0px 0px 20px 0px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#contact-form input::placeholder{
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+}
+#contact-form textarea::placeholder{
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+}
+#contact-form textarea{
+    border-radius: 15px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#contact-form #submit-form{
+    margin-top: 20px;
+    width: 20%;
+    align-self: center;
+    color: black;
+    text-align: center;
+    transition: .3s;
+}
+#contact-form #submit-form:hover{
+    cursor: pointer;
+    background-color: #153448;
+    color: white;
+    border: 1px solid black;
+}
+#contact-form form h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+
+footer{
+    background-color: #153448;
+    margin-top: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+footer div{
+    margin-top: 25px;
+}

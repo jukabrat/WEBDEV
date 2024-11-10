@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 30px 25px 0px 25px;
+    border-radius: 10px;
+    height: 100px;
+    filter:drop-shadow(15px 15px 1px rgba(128, 128, 128, 0.511));
+}
+
+
+nav #nav-sredina{
+    display: flex;
+}
+nav #nav-sredina div{
+    margin: 0px 25px 0px 25px;
+}
+nav #nav-sredina div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav #nav-sredina div div{
+    display: none;
+    position: absolute;
+    margin-left: 0;
+    width: 100px;
+}
+nav #nav-sredina div div a{
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: left;
+    background-color: rgb(242, 242, 242);
+    font-weight: 500;
+    padding-left: 5px;
+}
+nav #nav-sredina div div a:hover{
+    background-color: rgb(142, 142, 142);
+}
+nav #nav-sredina div:hover div{
+    display: block;
+}
+
+nav #nav-lijevo{
+    margin-left: 40px;
+    text-align: center;
+}
+
+nav #nav-lijevo h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+nav #nav-lijevo p{
+    margin-top: 0;
+    margin-bottom: 35px;
+    opacity: 50%;
+}
+nav #nav-desno{
+    display: flex;
+}
+nav #nav-desno #reservation{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(255, 191, 72);
+    border: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+nav #nav-desno #shop{
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+
+
+header{
+    display: flex;
+    flex-flow: column;
+    color: white;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+header #header-hellofriend{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+header #header-hellofriend p{
+    margin-left: 15px;
+}
+
+header h1{
+    font-size: 130px;
+    margin-top: 15px;
+    font-weight: 700;
+    letter-spacing: -7px;
+    margin-bottom: 0;
+}
+
+header #header-dummy{
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+header #header-button{
+    margin-top: 25px;
+}
+header #header-button button{
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+}
+header #header-button button:nth-child(odd){
+    background-color: rgb(255, 191, 72);
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+header #header-button button:nth-child(even){
+    background: none;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+}

@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #C499F3;
+}
+#head{
+    width: 100%;
+}
+#head nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F2AFEF;
+}
+#head nav a{
+    padding: 0;
+    align-self: center;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #33186B;
+    font-size: 17px;
+    font-weight: 600;
+}
+#head nav #logo{
+    margin: 0;
+    margin-right: auto;
+}
+#head #header{
+    margin: 0;
+    background-color: #C499F3;
+}
+#head #header h1{
+    margin: 0;
+    padding-top: 15vh;
+    padding-left: 5vw;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    width: fit-content;
+    color: #33186B;
+}
+#head #header p{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 50px;
+    color: #33186B;
+}
+
+
+
+
+
+#body{
+    display: flex;
+    background-color: #7360DF;
+    flex-direction: column;
+    margin: 0;
+}
+#body div{
+    display: flex;
+    margin: 25px 15px 0px 0px;
+}
+#body #slike{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+#body #slike div img{
+    border-radius: 20px;
+}
+#body div p{
+    color: #C499F3;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#body #slike div{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+#body #slike div p{
+    margin-left: 0;
+    width: 400px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+#body #text div{
+    margin: 25px 25px 25px 25px;
+    flex-direction: column;
+    text-align: justify;
+}
+#body #text #text1{
+    margin-right: 0;
+}
+#body #text div h1{
+    margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#body #text div p{
+    margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+#footer{
+    background-color: #33186B;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid black;
+}
+#footer h1{
+    background-color: #33186B;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
